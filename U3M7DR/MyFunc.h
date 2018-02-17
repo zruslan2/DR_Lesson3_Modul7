@@ -1,0 +1,17 @@
+enum type_number { positive, negative, all };
+void head(char mas[]);
+void yellow();
+void white();
+void red();
+void green();
+void sort_u(int*arr, int j);
+void sort_d(int*arr, int j);
+void sort(int*arr, int r, int n);
+int numb(type_number tn, int start, int end);
+double numb(type_number tn, double start, int end);
+void creat(int*arr, int r, int start, int end, type_number tn);
+void print_arr(int*arr, int r);
+void newArr(int*arr, int r, int*arr1, int r1, int*arr2, int r2);
+int common(int*arr, int r, int*arr1, int r1, int*arr2);
+int dissimilar(int*arr, int r, int*arr1, int r1, int*arr2);
+int dis(int*arr, int r, int*arr1, int r1, int*arr2);
